@@ -116,6 +116,11 @@ a.button2:hover {
 .section-1 img {
   width: 450px;
 }
+@media (min-width: 768px) {
+  .section-2 container {
+    display: none;
+  }
+}
 
 @media (max-width: 991.98px) {
   .title-lg-3 {
